@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import { styled } from '../../../styles/Theme'
 import ClientLink from '../ClientLink'
 import { useIsSSR } from '../../hooks/useIsSSR'

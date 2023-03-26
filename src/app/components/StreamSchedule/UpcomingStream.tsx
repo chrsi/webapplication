@@ -1,5 +1,6 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import { StreamProjectDateWrapper } from '../../../styles/common.styles'
 import { styled } from '../../../styles/Theme'
 import { useIsSSR } from '../../hooks/useIsSSR'
